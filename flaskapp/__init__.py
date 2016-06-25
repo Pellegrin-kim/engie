@@ -20,7 +20,7 @@ def main():
 
 
 @app.route('/map')
-def main():
+def map():
     try:
         return render_template("map.html")
     except Exception as e:
@@ -28,7 +28,7 @@ def main():
 
 
 @app.route('/conseil')
-def main():
+def conseil():
     try:
         return render_template("conseil.html")
     except Exception as e:
@@ -36,7 +36,7 @@ def main():
 
 
 @app.route('/evolution')
-def main():
+def evolution():
     try:
         return render_template("evolution.html")
     except Exception as e:
